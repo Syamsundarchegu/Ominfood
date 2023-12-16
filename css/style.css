@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    overflow-x: hidden;
+    
+}
+.section-hero{
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.hero{
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
+}
+.heading-primary{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+.btn:link, .btn:visited{
+    
+    font-size: 2rem;
+    color: #fff;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    border-radius: 9px;
+    display: inline-block;
+    transition: background-color 1s;
+    margin-right: 1.6rem;
+    font-weight: 600;
+}
+.btn--full:link, .btn--full:visited{
+    background-color: #e57e22;
+}
+.btn--full:hover, .btn--full:active{
+    background-color: #cf711f;
+    
+}
+.btn--outline:link, .btn--outline:visited{
+    background-color:#fff;
+    color: #555;
+}
+.btn--outline:hover, .btn--outline:active{
+    background-color: #fdf2e9;
+    box-shadow: inset 0 0 0 3px #fff;
+    
+}
+.hero-img{
+    width: 100%;
+}
+.delivered-meals{
+    display:flex;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+.delivered-faces{
+    display: flex;
+    
+}
+.delivered-faces img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+.delivered-text{
+    font-size: 1.8rem;
+    font-weight:600 ;
+}
+.delivered-faces img:last-child{
+    margin: 0;
+}
+.delivered-text span{
+    color: #e57e22;
+    font-weight: 200;
+}
+.logo{
+    height: 2.4rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+}
+.main-nav-list{
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    list-style: none;
+    
+}
+.main-nav-link:link, .main-nav-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+.main-nav-link:hover, .main-nav-link:active{
+    color:#cf711f;   
+}
+.main-nav-link.nav-cta{
+    padding: 1.6rem 3.2rem;
+    
+    border-radius: 9px;
+    color: #fff;
+}
+.main-nav-link.nav-cta:link,.main-nav-link.nav-cta:visited{
+
+    background-color: #e57e22;
+}
+.main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active{
+    background-color: #cf711f;
+    
+    
+}
+.hero-section2{
+    padding: 9.6rem 0;
+}
+.how-it-works{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.how-description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    align-items: center;
+    
+}
+.step1{
+    font-size: 9rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+.tertioray-heading{
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 3.2rem;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+.description1{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.app-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    width: 50%;
+}
+.how-works{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+.secondary-heading{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    color: #333;
+}
+.media-logo{
+    display: flex;
+    justify-content: space-around;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.logo2{
+    height: 3.2rem;
+    opacity: 50%;
+    filter: brightness(0);
+}
+.featured-in{
+    text-align: center;
+    
+    margin-bottom: 2.8rem;
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+}
+.medias{
+    padding: 4.8rem 0 3.2rem 0;
+}
+.menu{
+    padding: 9.6rem 0;
+}
+.our-menu{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 6.4rem;
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.item1{
+    width: 100%;
+    
+}
+.item1-description{
+    grid-column: 1/2;
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.nutrition li{
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meals{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+.fourth-heading{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    color: #333;
+    text-align: center;
+}
+.veg{
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(71, 190, 71);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: #333;
+}
+.paleo{
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(241, 241, 74);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: #333;
+}
+.recipe-name{
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+}
+.menu-item-1{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s
+    
+}
+.menu-item-1:hover{
+    transform:translateY(-1.2rem) ;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    color: #e8a86c;
+}
+.menu-list li{
+    list-style: none;
+    font-size:1.8rem ;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    line-height: 1.2;
+}
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+.fifth-heading{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+.link{
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-top: 2.8rem;
+    color: #e8a86c;
+    font-weight: 400;
+}
+.see-all-recipes{
+    display: flex;
+    justify-content: center;
+
+}
+.section4{
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+    
+}
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1.6rem;
+    gap: 1.6rem;
+    
+    
+}
+.gallery-item{
+    overflow: hidden;
+}
+.gallery-item img{
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+}
+.gallery-item img:hover{
+    transform: scale(1.1);
+}
+.developers-section{
+    padding: 9.6rem;
+}
+.developers-section-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+}
+.meal-tags{
+    display: flex;
+}
+.sub-1{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+.head-1{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+.customer-1{
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+.customer-1-review{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+}
+.customer-1-name{
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+.section-pricing{
+    padding: 9.6rem 0;
+}
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.subheading{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+.heading-secondary-1{
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    font-size: 4.4rem;
+    margin-bottom: 9.6rem;
+}
+.section-pricing-1{
+    display: grid;
+    column-gap: 9.6rem;
+    margin-bottom: 9.6rem;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.plan-header{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.plan-name{
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+}
+.plan-price{
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.plan-price span{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 0.8rem;
+}
+.plan-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+.lt{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.lt-1{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    line-height: 1.2;
+}
+.plan-sing-up{
+    text-align: center;
+    margin-top: 4.8rem;
+}
+.button-start{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1.6rem 3.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 9px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.button-start:link,.button-start:visited{
+    background-color: #e67e22;
+}
+.button-start:hover,.button-start:active{
+    background-color: #cf711f;
+    border-radius: 5px solid rgb(227, 201, 152);
+    
+}
+.price-plan{
+    justify-self: end;
+    padding: 4.6rem;
+    border-radius: 9px;
+    border: 2px solid #e7caaf;
+}
+.price-plan-1{
+    justify-self: start;
+    padding: 4.6rem;
+    border-radius: 9px;
+    background-color: #fdf2e9;
+}
+.developer-section-4{
+    display: grid;
+    grid-template-columns:1fr ;
+    margin-top: 4.8rem;
+    
+}
+.sub-4{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    margin-bottom: 9.6rem;
+}
+.mission{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 6.4rem;
+}
+.icon-1{
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
+    color: #e57e22;
+    border-radius: 50%;
+    padding: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+.different-sechems{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.its-info{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.section6{
+    padding: 4.8rem 0 12.8rem 0;
+}
+.contact{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+
+}
+.eating-image{
+    
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(235, 151, 78, 0.35),
+        rgba(230, 125, 34, 0.35)
+      ),
+      url("/img/eating.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.get-free{
+    font-size: 4.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 4.8rem;
+}
+.healthy-tasty{
+    font-size: 1.7rem;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+    color: #333;
+}
+.register-position{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+.contact--1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    border-radius: 9px;
+    
+}
+.contact-position{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #333;
+}
+.text,#select-where{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    background-color: #fdf2e9;
+    color: inherit;
+    border: none;
+    font-family: inherit;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.full-name{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    color: #333;
+}
+.sign-up-now{
+    text-decoration: none;
+    background-color: #363333;
+    color: white;
+    padding: 1.2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    align-self: end;
+    width: 100%;
+    border-radius: 9px;
+    border: none;
+}
+.sign-up-now:hover,.sign-up-now:active{
+    color: #333;
+    background-color: white;
+    border: 5px solid #fdf2e9;
+}
+*:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+.p1{
+    align-self: end;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns:1.5fr 1.5fr 1fr 1fr 1fr ;
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    column-gap: 6.4rem;
+}
+footer{
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+.social-media{
+    display: flex;
+    gap: 2.4rem;
+    margin-top: 3rem;
+    
+}
+.icon-2{
+    height: 2.4rem;
+    width: 2.4rem;
+    filter: brightness(0);
+}
+.copyright{
+    margin-top: 3.2rem;
+    color: #767676;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.foot-head{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4rem;
+}
+.foot-link{
+    color: #767676;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-bottom: 2.4rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.foot-link:last-child{
+    margin: 0;
+}
+.foot-link:hover,.foot-link:active{
+    color: #333;
+}
+.foot-link-1{
+    color: #767676;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.foot-link-1:hover,.foot-link-1:active{
+    color: #333;
+}
+.foot-address{
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+.btn-mobile-nav{
+    background: none;
+    border:none;
+    cursor: pointer;
+    display: none;
+}
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+.icon-mobile-nav[name="close-outline"]{
+    display: none;
+}
+.mission{
+    padding: 0 3.2rem;
+}
+.developer-section-4{
+    padding: 0 3.2rem;
+}
